@@ -7,6 +7,8 @@ import { vanillaCells, vanillaRenderers } from '@jsonforms/vanilla-renderers';
 import RatingControl from './components/RatingControl';
 import NameControl from './components/NameControl';
 import nameControlTester from './components/nameControlTester';
+import TextControlTester from './components/TextControlTester';
+import TextControl from './components/TextControl';
 
 const initialData = {
   user: {
@@ -27,7 +29,8 @@ const initialData = {
 const renderers = [
   ...vanillaRenderers,
   { tester: ratingControlTester, renderer: RatingControl },
-  { tester: nameControlTester, renderer: NameControl },
+  // { tester: nameControlTester, renderer: NameControl },
+  { tester: TextControlTester, renderer: TextControl },
 ];
 
 const JsonFormsDemo: FC = () => {
