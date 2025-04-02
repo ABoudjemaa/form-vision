@@ -1,0 +1,103 @@
+.app-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.control-container {
+  margin-bottom: 20px;
+  padding: 15px;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+}
+
+.two-columns {
+  display: flex;
+}
+
+.question-column {
+  flex: 1;
+  padding-right: 20px;
+}
+
+.answer-column {
+  flex: 1;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.question-label {
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.description {
+  font-size: 12px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.answer-value {
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+}
+
+.multiline {
+  white-space: pre-line;
+  min-height: 60px;
+}
+
+.enum-value, .enum-values-container .enum-value {
+  display: inline-block;
+  padding: 5px 10px;
+  margin: 2px;
+  background-color: #e3f2fd;
+  border-radius: 15px;
+  color: #1976d2;
+  font-size: 14px;
+}
+
+.countries-table {
+  width: 100%;
+  margin-top: 15px;
+  border-collapse: collapse;
+}
+
+.table-header, .table-row, .table-footer {
+  display: flex;
+  border-bottom: 1px solid #eee;
+  padding: 8px 0;
+}
+
+.table-header {
+  font-weight: bold;
+  border-bottom: 2px solid #ddd;
+}
+
+.table-footer {
+  font-weight: bold;
+  border-top: 2px solid #ddd;
+}
+
+.table-cell {
+  flex: 1;
+  padding: 5px;
+}
+
+.percentage-bar {
+  height: 20px;
+  background-color: #4caf50;
+  border-radius: 3px;
+}
+
+.percentage-warning {
+  color: #f44336;
+  font-weight: bold;
+}

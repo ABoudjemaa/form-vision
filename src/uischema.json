@@ -1,0 +1,26 @@
+{
+    "type": "Group",
+    "elements": [
+      {
+        "type": "Group",
+        "elements": [
+          {
+            "type": "Control",
+            "scope": "#/properties/user/properties/a08"
+          },
+          {
+            "type": "Control",
+            "scope": "#/properties/user/properties/a09",
+            "options": {
+              "multi": true
+            }
+          },
+          {
+            "type": "Control",
+            "scope": "#/properties/rating"
+          }
+        ],
+        "label": "My User"
+      }
+    ]
+  }

@@ -1,0 +1,26 @@
+{
+  "type": "object",
+  "properties": {
+    "user": {
+      "title": "My User",
+      "type": "object",
+      "properties": {
+        "a08": {
+          "title": "Name",
+          "type": "string",
+          "ve": 10
+        },
+        "a09": {
+          "title": "description of your skills",
+          "type": "string",
+          "pt": 0,
+          "ve": 10
+        },
+        "rating": {
+          "type": "integer",
+          "maximum": 5
+        }
+      }
+    }
+  }
+}
